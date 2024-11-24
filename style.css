@@ -1,0 +1,30 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+table{
+    width: 100%;
+    height: 250px;
+    border-collapse: collapse;
+    border-bottom: 3px solid #01987a;
+}
+
+table th{
+    background-color: #01987a;
+    color: aliceblue; 
+    text-align: start; 
+    padding-right:30px ;
+    padding-left: 10px; 
+}
+
+table tr td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.235);
+   padding-left: 10px; 
+}
+table tr:hover {
+    background-color:#a7b8b52e;
+    color: #01987a;
+    font-weight: bold; 
+      
+}
